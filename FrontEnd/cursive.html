@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Speakly </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/*
+.button {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+}
+*/
+.centertext {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  position: absolute; 
+  top: 70%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <img src="microphone.jpg" alt="Snow" style="width:100%;">
+  <form style="font-size:120%;" class="form" style="font-size:60%;"action="upload.php" method = "post" enctype="multipart/form-data"> 
+    <style="font-size:125%;"> <center> <style="font-size:125%;">Select Video to Upload: </center>
+    <input style="font-size:100%; " type = "file" name="fileToUpload" id="fileToUpload">
+    <input style="font-size:100%;"type="submit" value ="Upload Video" name="submit">
+  </form>
+  </div>
+  <div style="font-size:150%; width:85%; float:left; color:white;" class="centertext">
+  Are you struggling with public speaking? Say hello to Speakly, your own personal speech trainer! Speakly is designed to take data about your facial expression using the Cloud Vision, Speech-to-Text, and Natural Language Google API's and the connotation of your sentences to see if they match. This way, Speakly can analyze if your speech is presented properly in the way you want. Upload a video of yourself to start!
+</div>
+<div style="font-size:300%;font-family:cursive;" class="centered">
+Welcome to Speakly!
+</div>
+
+</body>
+</html>
